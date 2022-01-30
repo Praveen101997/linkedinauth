@@ -4,8 +4,8 @@ var express = require('express')
 
 // API Access link for creating client ID and secret:
 // https://www.linkedin.com/secure/developer
-var LINKEDIN_CLIENT_ID = '7730r8kghw9hux';
-var LINKEDIN_CLIENT_SECRET = 'MTQtl6ajQgOKUWRN';
+var LINKEDIN_CLIENT_ID ='';
+var LINKEDIN_CLIENT_SECRET = '';
 var CALLBACK_URL = process.env.CALLBACK_URL || 'http://localhost:3000/auth/linkedin/callback';
 
 
